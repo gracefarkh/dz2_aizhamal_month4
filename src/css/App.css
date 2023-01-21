@@ -1,0 +1,42 @@
+
+.cards{
+    background: aqua;
+    color: blueviolet;
+    height: 287px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    align-items: center;
+}
+.cred{
+    color: red;
+}
+.cblue{
+    color: blue;
+}
+.cgreen{
+    color: green;
+}
+
+.cards img{
+    width:100px;
+    height: 100px;
+}
+.catalog input{
+    width: 500px;
+    height: 50px;
+    font-size: large;
+}
+.catalog input::placeholder{
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+.catalogPost{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px
+}
